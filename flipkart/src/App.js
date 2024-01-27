@@ -10,9 +10,6 @@ import supabase from "./supabase";
 import { setUser } from "./slices/userSlice";
 import { useEffect } from "react";
 
-
-
-
 function App() {
   const dispatch= useDispatch()
   const getUser = async() =>{
